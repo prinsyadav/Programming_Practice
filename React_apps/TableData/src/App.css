@@ -1,0 +1,26 @@
+table {
+  border-collapse: collapse;
+  padding: 10%;
+  margin: 1%;
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* sets border for rows */
+  border-radius: 1%;
+  /* align-items: flex-start; */
+  align-items: center;
+}
+
+th {
+  border-color: #f00; /* sets border color for header row */
+  border-radius: 1%;
+}
+
+td:first-child {
+  border-left-color: #0f0; /* sets border color for first column */
+}
+
+td:last-child {
+  border-right-color: #00f; /* sets border color for last column */
+}

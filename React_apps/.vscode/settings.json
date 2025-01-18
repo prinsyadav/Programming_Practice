@@ -1,0 +1,14 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "database": "form_submission",
+      "username": "postgres",
+      "password": "annu",
+      "name": "jdbc:postgresql://localhost:5432/form_submission"
+    }
+  ]
+}
