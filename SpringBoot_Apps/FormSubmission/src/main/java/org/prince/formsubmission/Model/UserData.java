@@ -21,7 +21,6 @@ public class UserData {
     private String selectedOption;
     private String about;
 
-
     public Long getId() {
         return id;
     }
